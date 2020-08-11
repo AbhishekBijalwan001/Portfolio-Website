@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/675f089510.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Unica+One|Vollkorn&display=swap" rel="stylesheet">
+
+    <title>Contact Page - My Portfolio</title>
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!--    ----Took Assistance in linking jquery and how to use it------->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/circle-progress.js"></script>
+
+</head>
+
+<!------Start of body------->
+
+<body>
+
+     <header>
+        <nav id="main_menu">
+            <ul class="menu row">
+                <div class="two columns logo">Abhishek</div>
+                <div class="ten columns navi">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--    start of first section-->
+
+    <section class="main container">
+        <div class="row">
+            <article class="one-half column">
+                <h1 class="main_heading">Contact Me</h1>
+                <p class="about_left">Please get in touch with my if you have any feedback on my work. I really value your opinion and will make sure to improve myself. Please fill out the contact form so that I can get back to you. I will respond to your messages as soon as I can.</p>
+            </article>
+
+            <article class="one-half column">
+                <!-- The above form looks like this -->
+                <form style="padding-top: 5rem;">
+                  <div class="row">
+
+                    <div class="six columns">
+                      <label for="name">Your name</label>
+                      <input class="u-full-width" type="text" placeholder="Your Name" id="name">
+                    </div> 
+                    <div class="six columns">
+                      <label for="email">Your email</label>
+                      <input class="u-full-width" required type="email" placeholder="test@mailbox.com" id="email">
+                    </div>
+                  </div>
+                  <label for="message">Message</label>
+                  <textarea class="u-full-width" placeholder="Your message" id="message"></textarea>
+                  <label>
+                    <input type="checkbox">
+                    <span class="label-body">Send a copy to yourself</span>
+                  </label>
+                  <input class="button-primary" type="submit" value="Submit">
+                </form>
+
+                <!-- Always wrap checkbox and radio inputs in a label and use a <span class="label-body"> inside of it -->
+
+                <!-- Note: The class .u-full-width is just a utility class shorthand for width: 100% -->
+            </article>
+        </div>
+    </section>
+
+    
+
+    <!--   start of footer-->
+
+
+    <footer class="footer">
+        <article class="one-half column">
+            <h5>------SOCIAL MEDIA - LETS GET CONNECTED------</h5>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a>
+            <a href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-google-plus fa-2x"></i></a>
+            <a href="mailto:bija0001@algonquinlive.com"><i class="fas fa-envelope-open-text fa-2x"></i></a>
+        </article>
+        <article class="one-half column">
+            <h5>Email<br><a href="mailto:bija0001@algonquinlive.com">bija0001@algonquinlive.com</a></h5>
+        </article>
+        <article class="twelve columns">
+            <p>&copy; Copyright : Abhishek Bijalwan</p>
+        </article>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>

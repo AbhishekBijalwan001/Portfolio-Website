@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/675f089510.js" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Unica+One|Vollkorn&display=swap" rel="stylesheet">
+
+    <title>About Page - My Portfolio</title>
+
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+    <!--    ----Took Assistance in linking jquery and how to use it------->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/circle-progress.js"></script>
+
+</head>
+
+<!------Start of body------->
+
+<body>
+
+     <header>
+        <nav id="main_menu">
+            <ul class="menu row">
+                <div class="two columns logo">Abhishek</div>
+                <div class="ten columns navi">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT ME</a></li>
+                    <li><a href="portfolio.html">PORTFOLIO</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!--    start of first section-->
+
+    <section class="main container">
+        <div class="row">
+            <article class="one-half column">
+                <h1 class="main_heading">About Me</h1>
+                <p class="about_left">I have worked for the National Center of Design & Product Development set up by theMinistry of Textiles, Govt of India) as a Designer for 3 years and also had 6 months oftraining in the same organization. I am adopted at working multiple tasks simultaneously. These tasks included designing, architectural visualizer, product designing anddrawing, and branding(Like logo Designing ). During this period, I actively worked ongraphic designing and Product Development projects moreover have done a drawing ofreports about craft documentation on several Indian crafts.</p>
+                <a href="resume.pdf" target="_blank" class="button button-primary"> Click to view Resume</a>
+            </article>
+
+            <article class="one-half column">
+                <img src="img/port_image.jpg" alt="my image" class="my_img">
+            </article>
+        </div>
+    </section>
+
+    <!--   start of second section-->
+    <section class="container javascript">
+        <div class="row">
+            <h2>Skills</h2>
+            <article class="three columns">
+                <h6>Photoshop</h6>
+                <div id="photoshop"></div>
+            </article>
+            <article class="three columns">
+                <h6>Illustrator</h6>
+                <div id="illustrator"></div>
+            </article>
+            <article class="three columns">
+                <h6>Corel</h6>
+                <div id="corel_draw"></div>
+            </article>
+            <article class="three columns">
+                <h6>Coding</h6>
+                <div id="coding"></div>
+            </article>
+        </div>
+    </section>
+    
+    <!--    ----Took Assistance in linking jquery and how to use it------->
+
+    <script>
+        $('#photoshop').circleProgress({
+            value: 0.5,
+            size: 80,
+            fill: {
+                gradient: ["red", "orange"]
+            }
+        });
+
+        $('#illustrator').circleProgress({
+            value: 0.3,
+            size: 80,
+            fill: {
+                gradient: ["red", "orange"]
+            }
+        });
+
+        $('#corel_draw').circleProgress({
+            value: 0.8,
+            size: 80,
+            fill: {
+                gradient: ["red", "orange"]
+            }
+        });
+
+        $('#coding').circleProgress({
+            value: 0.2,
+            size: 80,
+            fill: {
+                gradient: ["red", "orange"]
+            }
+        });
+    </script>
+
+    <!--   start of footer-->
+
+
+    <footer class="footer">
+        <article class="one-half column">
+            <h5>------SOCIAL MEDIA - LETS GET CONNECTED------</h5>
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook-f fa-2x"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram-square fa-2x"></i></a>
+            <a href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-google-plus fa-2x"></i></a>
+            <a href="mailto:bija0001@algonquinlive.com"><i class="fas fa-envelope-open-text fa-2x"></i></a>
+        </article>
+        <article class="one-half column">
+            <h5>Email<br><a href="mailto:bija0001@algonquinlive.com">bija0001@algonquinlive.com</a></h5>
+        </article>
+        <article class="twelve columns">
+            <p>&copy; Copyright : Abhishek Bijalwan</p>
+        </article>
+    </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+</body>
+
+</html>
